@@ -1,7 +1,7 @@
 import express from "express";
 // import { enrollInCourse, getMyEnrollments } from '../controllers/enrollmentController.js';
 // import { getMyEnrollments } from '../controllers/enrollmentController.js';
-import { getMyEnrollments , razorpayWebhook} from '../controllers/EnrollmentController.js';
+import { getMyEnrollments , razorpayWebhook} from '../controllers/enrollmentController.js';
 
 import { isAuthenticated } from '../middlewares/auth.js';
 
